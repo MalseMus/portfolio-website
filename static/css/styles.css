@@ -1,0 +1,37 @@
+body {
+    background-color: DarkSlateGrey;
+}
+
+h1 {
+    font-size: 70px;
+    color: White;
+    text-align: center;
+    margin-bottom: 10px
+}
+
+h2 {
+    font-size: 30px;
+    color: White;
+    text-align: center;
+}
+
+ul {
+    font-size: 20px;
+    color: White;
+    margin-left: 650px;
+}
+
+.info {
+    color: White;
+    margin-right: 650px;
+    margin-left: 650px;
+}
+
+.back {
+    color: White;
+    margin-left: 650px;
+}
+
+.link {
+    color: White;
+}

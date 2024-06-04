@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Projects</title>
+    <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet" />
+</head>
+<body>
+    <h1>Freddy's Portfolio</h1>
+    <h2>Here are my projects, supported by a link the GitHub page</h2>
+
+    <ul>
+        {% for entry in projects %}
+
+            <li>
+                <p>{{ entry }}</p><a href="{{ projects[entry] }}" class="link">GitHub Link</a>
+            </li>
+
+        {% endfor %}
+    </ul>
+
+    <a href="{{ url_for('home') }}" class="back">Back</a>
+
+</body>
+</html>

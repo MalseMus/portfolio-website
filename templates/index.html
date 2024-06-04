@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet" />
+</head>
+<body>
+    <h1>Freddy's Portfolio</h1>
+    <h2>A place for neet info and my projects, what do you need? :)</h2>
+    <ul>
+        <li>
+            <a href="{{ url_for('info') }}" class="link">Basic info</a>
+        </li>
+        <li>
+            <a href="{{ url_for('projects') }}" class="link">My Projects</a>
+        </li>
+    </ul>
+</body>
+</html>
